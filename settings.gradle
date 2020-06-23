@@ -1,0 +1,3 @@
+include ':androidtagview'
+include ':sample'
+include ':app'

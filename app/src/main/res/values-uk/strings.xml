@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">лб1</string>
+    <string name="title_activity_note">Примітки</string>
+    <string name="name">Ім\'я</string>
+         <string name = "description"> Опис </string>
+         <string name = "importance"> Важливість</string>
+         <string name = "date"> Дата </string>
+         <string name = "textview"> TextView </string>
+         <string name = "image"> Зображення </string>
+         <string name = "save"> Зберегти </string>
+         <string name = "time"> Час </string>
+         <string name = "high"> Висока </string>
+         <string name = "medium"> Середня </string>
+         <string name = "low"> Низька </string>
+         <string name = "not_set"> Не встановлено </string>
+         <string name = "edit"> Редагувати </string>
+         <string name = "cancel"> Скасувати </string>
+         <string name = "delete"> Видалити </string>
+         <string name = "search"> Пошук </string>
+         <string name = "filter"> Фільтр </string>
+         <string name = "add"> Додати </string>
+</resources>

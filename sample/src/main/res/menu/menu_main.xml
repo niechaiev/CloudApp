@@ -1,0 +1,67 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="co.lujun.sample.MainActivity">
+    <item
+        android:id="@+id/item1"
+        android:title="File Extension"
+        app:showAsAction="never" >
+    <menu>
+        <item
+            android:id="@+id/jpg"
+            android:title="jpg" />
+        <item
+            android:id="@+id/png"
+            android:title="png" />
+        <item
+            android:id="@+id/mp3"
+            android:title="mp3" />
+        <item
+            android:id="@+id/psd"
+            android:title="psd" />
+        <item
+            android:id="@+id/wav"
+            android:title="wav" />
+    </menu>
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:title="File Type"
+        app:showAsAction="never" >
+    <menu>
+        <item
+            android:id="@+id/document"
+            android:title="document" />
+        <item
+            android:id="@+id/photo"
+            android:title="photo" />
+        <item
+            android:id="@+id/video"
+            android:title="video" />
+        <item
+            android:id="@+id/audio"
+            android:title="audio" />
+        <item
+            android:id="@+id/spreadsheet"
+            android:title="spreadsheet" />
+    </menu>
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:title="File Size"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/subitem1"
+                android:title="Larger than" />
+            <item
+                android:id="@+id/subitem2"
+                android:title="Smaller than" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item4"
+        android:title="File Name"
+        app:showAsAction="never" />
+</menu>
